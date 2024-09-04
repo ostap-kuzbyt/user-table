@@ -1,4 +1,4 @@
-import { Users } from '../store/userSlice';
+import { Users } from '../types/users';
 
 export const _filteredUsers = (users: Users[], search: string): Users[] => {
 	return users.filter(
